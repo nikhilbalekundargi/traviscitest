@@ -1,8 +1,21 @@
 language: python
 python:
   - "3.4"
+
+
+#install
+install:
+  - pip install -r requirements.txt
+
+#script
 script: 
   - python3 test_travis.py
+
+#after script
+
+
+#deploy
+
 
 branches:
   only:
